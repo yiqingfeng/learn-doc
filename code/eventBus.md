@@ -30,7 +30,7 @@
 
         // 无参时，取消所有事件的绑定
         if (!name) {
-            me._eventsMap = eventsMap = {};
+            eventsMap = {};
             return me;
         }
 
@@ -98,7 +98,6 @@
         });
         return me;
     }
-    eventBus._eventsMap = eventsMap;
     // 执行事件序列
     function triggerEvents(callbacks, data){
         for (var i=0,l=callbacks.length; i<l; i++) {
