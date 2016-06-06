@@ -1,0 +1,19 @@
+{
+    "title" : "Learn DOC",
+    "description" : "记录工作或学习上的有益的事情",
+    "author" : "mengxuan",
+    "generator": "site",
+    "language" : "zh-hans",
+    "gitbook" : "2.6.4",
+    "links" : {
+        "sidebar" : {
+            "Home" : "http://yiqingfeng.github.io"
+        }
+    },
+    "plugins": [
+        "-search",
+        "advanced-emoji"
+    ],
+    "pluginsConfig": [
+    ]
+}
