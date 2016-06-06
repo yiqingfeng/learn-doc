@@ -8,4 +8,5 @@
         + [命令](dev/gitbook/commands.md)
         + [配置](dev/gitbook/settings.md)
         + [bookjson](dev/gitbook/bookjson.md)
+    - [git与github配合使用](dev/github.md)
 
